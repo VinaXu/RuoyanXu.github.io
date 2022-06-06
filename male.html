@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+
+    <title>Delicious Restaurant</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="nav1">
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./business.html">Business</a></li>
+                <li class="active"><a href="./information.html">Information</a></li>
+                <li>
+                    <H1 class="logo">Delicious Restaurant</H1>
+                </li>
+                <li><a href="./reservation.html">Reservation</a></li>
+                <li><a href="./service.html">Service</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- responsive nav -->
+
+        <nav class="navbar fixed-top">
+            <div class="container-fluid">
+                <H1 class="logo">Delicious Restaurant</H1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class=" text-light " style="font-size: 3rem;">≅</span>
+          </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header" style="background: #040420;">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" style="background: #fff;" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body" style="background: #040420; padding-top: 10vmin;">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item ">
+                                <a aria-current="page" href="./home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./business.html">Business</a>
+                            </li>
+
+                            <li class="nav-item active">
+                                <a href="./information.html">Information</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./reservation.html">Reservation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./service.html">Service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./contact.html">Contact</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <div class="container male-info">
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="https://source.unsplash.com/EHK-EH1SRzQ" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Jacob</h5>
+                            <p class="card-text">Responsible for the preparation of French cuisine; Specializes in perfect plating; Can customize dishes to suit your taste.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://source.unsplash.com/e5Q5vWO55uU" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Henry</h5>
+                            <p class="card-text">Responsible for the preparation of Italian cuisine; Expert in the use of various spices; Can customize dishes to suit your taste .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://source.unsplash.com/iv6yNy7oBqQ" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Thomas</h5>
+                            <p class="card-text">Responsible for making fried food; Good at controlling the heat precisely; Can customize dishes to suit your taste.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://source.unsplash.com/AXDTTuh-0UI" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Freddie</h5>
+                            <p class="card-text">Responsible for the preparation of Turkish cuisine; Specializes in making vegetables very tasty; Can customize dishes to suit your taste .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://source.unsplash.com/GSD9VoG6f-U" height="400" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Alfie</h5>
+                            <p class="card-text">Responsible for the preparation of Indian cuisine; Specializing in tender and flavorful meats; Can customize dishes to suit your taste.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <br><br>
+        <button class="business-btn"><a href="./service.html">Back to Menu</a></button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

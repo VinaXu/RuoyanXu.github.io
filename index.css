@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    height: 100%;
+}
+
+
+/* home */
+
+.home {
+    background: rgba(0, 0, 0, 0.648) url("https://source.unsplash.com/I7A_pHLcQK8");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -2vmin;
+    margin-right: -2vmin;
+    background-blend-mode: darken;
+}
+
+nav {
+    text-align: center;
+    background: rgba(2, 2, 19, 0.826);
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 3vmin;
+    padding: 2vmin;
+}
+
+nav ul li a {
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.active a {
+    background: rgba(255, 166, 0, 0.528);
+    padding: 3.5vmin;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+nav h1 {
+    color: orange;
+    font-family: 'Courgette', cursive;
+}
+
+.home .info {
+    color: antiquewhite;
+    text-align: center;
+    margin-top: auto;
+}
+
+.home .info p {
+    transform: translateY(50%);
+    padding-top: 20vh;
+    font-family: 'Fresca', sans-serif;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+
+/* business */
+
+.business h2 {
+    text-align: center;
+    margin-top: 18vmin;
+    margin-bottom: 5vmin;
+}
+
+.business {
+    border: none;
+    width: 600px;
+}
+
+.business .question {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.business .question p {
+    line-height: 2px;
+}
+
+.business .question:hover,
+.business h2:hover {
+    color: orange;
+}
+
+.business-btn {
+    right: 5vmin;
+    float: right;
+    text-decoration: none;
+    border: none;
+    background: linear-gradient(#6c718e, #5f5cb0, #1e125f, #040420, #221a4e, #564593);
+    border-radius: 30px;
+    text-transform: uppercase;
+    height: 5vh;
+}
+
+.business-btn a {
+    color: orange;
+    padding: 5vmin 5vmin;
+    display: hidden;
+}
+
+.business-btn a:hover {
+    color: antiquewhite;
+}
+
+
+/* information */
+
+.info-page {
+    text-align: center;
+}
+
+.info-page p {
+    margin-top: 5vmin;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.info-page .card {
+    margin: 8vmin;
+    text-align: center;
+    width: 500px;
+    left: 30%;
+    border: #040420 4px solid;
+    border-radius: 0;
+}
+
+.info-page .card h1 {
+    margin-top: 6vmin;
+    margin-bottom: 6vmin;
+}
+
+.info-page .card h1 a {
+    color: #040420;
+}
+
+.info-page .card h1 a:hover {
+    color: orange;
+}
+
+
+/* mael-info */
+
+.male-info img {
+    height: 20vw;
+}
+
+
+/* reservation */
+
+.reservation {
+    background: whitesmoke;
+    box-shadow: 5px 8px 15px #161642c7;
+}
+
+.reservation h2 {
+    text-align: center;
+    margin: 3vmin;
+}
+
+.reservation .list p {
+    font-family: 'Courgette', cursive;
+    font-size: 1rem;
+}
+
+
+/* servicetime */
+
+.orm-group .row a {
+    margin-top: 6vmin;
+}
+
+
+/* contact */
+
+.info-page span {
+    font-weight: lighter;
+}
+
+.text-center h3 {
+    color: #040420;
+}
+
+.info-page b {
+    color: #040420;
+    text-align: left;
+}
+
+.info-page b:hover {
+    color: orange;
+}
+
+
+/* about-service */
+
+.about-service {
+    background: whitesmoke;
+    margin: 4vmin;
+    padding: 4vmin;
+}
+
+.about-service h3 {
+    color: #040420;
+}
+
+.free h3 {
+    color: orange;
+}
+
+
+/* modal */
+
+.modal-header {
+    color: #040420;
+    background: orange;
+}
+
+.btn-close {
+    color: white;
+}
+
+.modal-body p {
+    font-size: larger;
+}
+
+
+/* media screens */
+
+@media screen and (max-width: 1190px) {
+    .nav1 {
+        display: none;
+    }
+    .info-page p {
+        margin-top: 15vmin;
+        font-weight: bold;
+        font-size: 0.9rem;
+    }
+    .reservation {
+        margin-top: 10vmin;
+    }
+    .male-info,
+    .female-info {
+        margin: 10vmin;
+    }
+}
+
+@media screen and (min-width: 1191px) {
+    .navbar {
+        display: none;
+        background: rgba(0, 0, 0, 0.648);
+    }
+    .nav-item li a {
+        color: #040420;
+    }
+}
